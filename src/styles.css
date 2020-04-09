@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+/** Crear estilo para el Menu izquierdo **/
+.main-container{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.main-header {
+  height: 50px;
+  width: 100%;
+  background: #7e2199;
+  justify-items: end;
+}
+.left-menu {
+  width: 200px;
+  height: 100vh;
+  background: #7e2199;
+}
+.rigth-container {
+  width: calc(100% - 200px);
+}

@@ -19,3 +19,17 @@
 .rigth-container {
   width: calc(100% - 200px);
 }
+
+.avatar > img{
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 200px 200px 200px 200px;
+  cursor: pointer ;
+
+}
+
+.avatar{
+  padding-top: 4px;
+
+}
+

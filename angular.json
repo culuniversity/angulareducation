@@ -28,9 +28,15 @@
               "src/styles.css"
             ],
             "scripts": [
+<<<<<<< HEAD
               "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/popper.js/dist/umd/popper.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+=======
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/@popperjs/core/dist/cjs/popper.js", 
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+>>>>>>> 0770696ac49e6eb370c6aa764882ba551012867d
             ]
           },
           "configurations": {

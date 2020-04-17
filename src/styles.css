@@ -20,7 +20,7 @@
 .rigth-container {
   width: calc(100% - 200px);
 }
-<<<<<<< HEAD
+
 
 .img-container {
   max-width: 100px;
@@ -32,7 +32,7 @@
   border-radius: 0px;
   margin-bottom: 5px;
 }
-=======
+
 .modal-header {
   background: #7e2199;
   text-align: center;
@@ -47,4 +47,4 @@
 .text-color {
   color: white;
 }
->>>>>>> 0770696ac49e6eb370c6aa764882ba551012867d
+

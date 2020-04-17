@@ -19,3 +19,17 @@
 .rigth-container {
   width: calc(100% - 200px);
 }
+.modal-header {
+  background: #7e2199;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: complex;
+}
+.modal-footer {
+  background: #7e2199;
+}
+
+.text-color {
+  color: white;
+}

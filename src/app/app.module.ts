@@ -10,6 +10,7 @@ import {ForgetPasswordComponent} from './auth/forget-password/forget-password.co
 import {SmartTemplateComponent} from './template/smart-template/smart-template.component';
 import {TemplateModule} from './template/template.module';
 import {DashboardModule} from './pages/dashboard/dashboard.module';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 const routes: Routes = [
   {
     path: 'auth',
@@ -32,7 +33,8 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     AuthModule,
     TemplateModule,
-    DashboardModule
+    DashboardModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
